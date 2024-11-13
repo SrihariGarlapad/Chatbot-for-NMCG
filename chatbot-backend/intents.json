@@ -1,0 +1,676 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "Hii",
+            "Hai",
+            "Hi there",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Hlo"
+         ],
+         "responses":[
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"How_are_you",
+         "patterns":[
+            "How are you",
+            "how are you",
+            "How do you do",
+            "how are you doing",
+            "how do you do"
+         ],
+         "responses":[
+            "Hello, I am doing well. What about you? and thanks for asking"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a Chacha Chaudary, and I can provide information about the Namami Gange project, Ganga River, its importance, conservation efforts, and more."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_intro",
+         "patterns":[
+            "About Ganga",
+            "about Ganga",
+            "what is Ganga",
+            "Tell about Ganga River",
+            "Tell about River Ganga",
+            "Ganga River",
+            "River Ganga",
+            "Ganga",
+            "Describe River Ganga",
+            "Can you describe the Ganga River?",
+            "Ganga River information"
+         ],
+         "responses":[
+            "The Ganga River, also known as the Ganges, is one of the major rivers of the Indian subcontinent. It is considered sacred by millions of people in India. The river originates from the Gangotri Glacier in the state of Uttarakhand and flows through northern India, eventually emptying into the Bay of Bengal. The Ganga is known for its cultural, historical, and spiritual significance and is an important source of water for agriculture and daily use for millions of people."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_length",
+         "patterns":[
+            "How long is the Ganga River?",
+            "Ganga River length",
+            "Tell me about the length of the Ganga"
+         ],
+         "responses":[
+            "The Ganga River, also known as the Ganges, is approximately 2,525 kilometers (1,569 miles) long. It is one of the longest rivers in the Indian subcontinent."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_width",
+         "patterns":[
+            "What is the width of the Ganga River?",
+            "Ganga River width",
+            "Tell me about the width of the Ganga"
+         ],
+         "responses":[
+            "The width of the Ganga River varies along its course. It is a dynamic river with different widths in different regions, ranging from a few hundred meters to several kilometers."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_cities",
+         "patterns":[
+            "Cities along the Ganga",
+            "Ganga River urban areas",
+            "Metropolitan cities on the Ganga",
+            "Ganga Riverbank cities"
+         ],
+         "responses":[
+            "The Ganga River flows through several major cities in India, including Varanasi, Kanpur, Allahabad (Prayagraj), Patna, and Kolkata. These cities have historical and cultural significance, and the river plays a vital role in their development and sustenance."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_wildlife",
+         "patterns":[
+            "Tell me about wildlife in the Ganga River",
+            "What species live in the Ganga",
+            "Ganges River Dolphin",
+            "Ganga River fauna"
+         ],
+         "responses":[
+            "The Ganga River is home to diverse wildlife, including the iconic Ganges River Dolphin, various species of fish, turtles, gharials, and a variety of waterfowl. The basin supports rich biodiversity and serves as a vital habitat for migratory birds during the winter months."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_pollution",
+         "patterns":[
+            "What is the pollution status of the Ganga River?",
+            "Ganga River pollution",
+            "Tell me about Ganga pollution"
+         ],
+         "responses":[
+            "Unfortunately, the Ganga River faces pollution challenges from various sources, including industrial and domestic discharge. Ongoing efforts aim to address these issues and improve the water quality of the river."
+         ],
+         "context":[
+            "" 
+         ]
+      },
+      {
+         "tag":"ganga_importance",
+         "patterns":[
+            "Why is the Ganga River important?",
+            "Significance of the Ganga River",
+            "Religious importance of Ganga",
+            "Ganga in Hinduism",
+            "significance",
+            "Cultural value of Ganga"
+         ],
+         "responses":[
+            "The Ganga River holds immense importance in Indian culture and spirituality. It is considered sacred and is central to Hindu beliefs. Many rituals and ceremonies are performed on its banks. The river is also important for agriculture and supports a diverse ecosystem. It has played a crucial role in the history and development of India."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_conservation",
+         "patterns":[
+            "How can we conserve the Ganga River?",
+            "Ways to protect the Ganga River",
+            "Ganga River conservation efforts",
+            "what steps",
+            "how to protect",
+            "What can I do to help the Ganga?"
+         ],
+         "responses":[
+            "Conserving the Ganga River requires collective efforts. It involves reducing pollution, responsible waste management, and sustainable agricultural practices. Various governmental and non-governmental organizations are actively involved in river conservation projects. Individuals can contribute by adopting eco-friendly practices and participating in clean-up drives."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ganga_threats",
+         "patterns":[
+            "What are the threats to the Ganga River?",
+            "Ganga River challenges",
+            "challenges faced",
+            "Problems facing the Ganga River",
+            "Environmental threats to Ganga"
+         ],
+         "responses":[
+            "The Ganga River faces several threats, including pollution from industrial and domestic sources, over-extraction of water, deforestation in its catchment area, and climate change. These factors contribute to the degradation of the river and its ecosystem. Efforts are ongoing to address these challenges and ensure the river's sustainability."
+         ],
+         "context":[
+            "" 
+         ]
+      },
+      {
+         "tag": "namami_gange_intro",
+         "patterns": [
+            "Tell me about the Namami Gange project",
+            "What is Namami Gange?",
+            "what is project",
+            "what is project about",
+            "about Namami Gange project",
+            "about",
+            "what is NMCG",
+            "Namami Gange",
+            "Namami Gange initiative",
+            "Ganga cleaning project"
+         ],
+         "responses": [
+            "Namami Gange is a flagship initiative for cleaning and rejuvenating the Ganga River. It aims to reduce pollution, conserve the river's ecology, and promote sustainable use of water resources. The project encompasses various measures, including sewage treatment, riverfront development, and public awareness campaigns."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "namami_gange_progress",
+         "patterns": [
+            "What progress has been made in Namami Gange?",
+            "Namami Gange achievements",
+            "impact of the project",
+            "what are necessary steps",
+            "significance",
+            "changes of the project",
+            "Ganga cleaning status",
+            "Results of Namami Gange"
+         ],
+         "responses": [
+            "Namami Gange has made significant progress in improving the cleanliness of the Ganga River. Efforts include the construction of sewage treatment plants, riverbank development, and the introduction of pollution monitoring mechanisms. While challenges remain, there have been positive outcomes in reducing pollution levels and enhancing the overall health of the river."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "namami_gange_impact",
+         "patterns": [
+            "What impact does Namami Gange have on the Ganga River?",
+            "what effect",
+            "effect",
+            "Effects of Namami Gange on Ganga",
+            "Ganga water quality improvement",
+            "Namami Gange benefits"
+         ],
+         "responses": [
+            "Namami Gange has a positive impact on the Ganga River by improving water quality, restoring ecosystems, and promoting sustainable practices. The initiative aims to revive the cultural and ecological significance of the Ganga, benefiting communities along its banks and ensuring a cleaner and healthier river for future generations."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "namami_gange_partnerships",
+         "patterns": [
+            "Who are the partners involved in Namami Gange?",
+            "Namami Gange collaborators",
+            "Partnership for Ganga cleaning",
+            "who are the people involved",
+            "people",
+            "Organizations working on Ganga project"
+         ],
+         "responses": [
+            "Namami Gange involves collaboration between various government agencies, environmental organizations, and local communities. Partnerships include contributions from the central government, state governments, NGOs, and international entities. The collective effort is crucial for the success of the initiative."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "namami_gange_future",
+         "patterns": [
+            "What are the future plans for Namami Gange?",
+            "Namami Gange upcoming projects",
+            "Future of Ganga cleaning",
+            "objectives",
+            "key goals",
+            "what are aims",
+            "Long-term goals for Ganga"
+         ],
+         "responses": [
+            "The future plans for Namami Gange include continued efforts to reduce pollution, enhance sewage treatment infrastructure, and implement sustainable river management practices. The goal is to ensure the long-term health and vitality of the Ganga River, addressing challenges and promoting holistic river conservation."
+         ],
+         "context": [""]
+      },
+      {
+         "tag":"Who_are_you",
+         "patterns":[
+            "Who are you",
+            "Could you please introduce yourself?",
+            "Can you provide some information about yourself?",
+            "Could you share some details about your identity?",
+            "What is your name?"
+         ],
+         "responses":[
+            "I am a Chacha Chaudary. My motive is to give awareness about the River Ganga."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag": "objectives",
+         "patterns": [
+            "what are the key motives",
+            "things achieved",
+            "achievements of the project",
+            "goals",
+            "what are key goals"
+         ],
+         "responses": [
+            "The goal is to clean Ganga and its tributaries in a comprehensive manner. Sewage Treatment Infrastructure, River Front Development, River Surface Cleaning, Industrial Effluent Monitoring, Biodiversity, Afforestation, Public Awareness, and Ganga Gram."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "importance",
+         "patterns": [
+            "importance",
+            "necessity",
+            "what is the importance"
+         ],
+         "responses": [
+            "The Ganga, sacred in Hinduism, is vital for millions, providing water and spiritual sanctity. Despite its cultural significance, pollution threatens its ecosystem. Conservation efforts are crucial to preserving its cultural importance, supporting livelihoods, and maintaining biodiversity, emphasizing the need for urgent and sustainable measures."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "loc",
+         "patterns": [
+            "when",
+            "how",
+            "who"
+         ],
+         "responses": [
+            "Clean Ganga roadshow, which was inaugurated on the sidelines of COP26 in Glasgow resulted in forming four chapters in Scotland, Wales, Midlands and London to connect various interest groups with the Namami Gange Programme. Over 30,000 seeds of India's major carps which are declining in the entire Ganga River like catla, rohu, and mrigal fishes were released on the confluence of the Ganga and the Yamuna in Prayagraj Sangam. National Mission for Clean Ganga (NMCG) show that out of 341 projects, 147 (or 43 per cent) are completed in which majority of projects are related to sewage infrastructure and 61 out of 157 sewage projects (39 per cent) have been completed."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "ganga_wildlife",
+         "patterns": [
+            "Tell me about wildlife in the Ganga River",
+            "What species live in the Ganga",
+            "Ganges River Dolphin",
+            "Ganga River fauna"
+         ],
+         "responses": [
+            "The Ganga River is home to diverse wildlife, including the iconic Ganges River Dolphin, various species of fish, turtles, gharials, and a variety of waterfowl. The basin supports rich biodiversity and serves as a vital habitat for migratory birds during the winter months."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "ganga_length",
+         "patterns": [
+            "How long is the Ganga River?",
+            "Ganga River length",
+            "Tell me about the length of the Ganga"
+         ],
+         "responses": [
+            "The Ganga River, also known as the Ganges, is approximately 2,525 kilometers (1,569 miles) long. It is one of the longest rivers in the Indian subcontinent."
+         ],
+         "context": [""]
+      },
+
+      {
+         "tag": "ganga_width",
+         "patterns": [
+            "What is the width of the Ganga River?",
+            "Ganga River width",
+            "Tell me about the width of the Ganga"
+         ],
+         "responses": [
+            "The width of the Ganga River varies along its course. It is a dynamic river with different widths in different regions, ranging from a few hundred meters to several kilometers."
+         ],
+         "context": [""]
+      },
+
+      {
+         "tag": "ganga_pollution",
+         "patterns": [
+            "What is the pollution status of the Ganga River?",
+            "Ganga River pollution",
+            "Tell me about Ganga pollution"
+         ],
+         "responses": [
+            "Unfortunately, the Ganga River faces pollution challenges from various sources, including industrial and domestic discharge. Ongoing efforts aim to address these issues and improve the water quality of the river."
+         ],
+         "context": [""]
+      } ,
+            {
+               "tag":"ganga_history",
+               "patterns":[
+                  "History of the Ganga River",
+                  "Historical significance of Ganga",
+                  "Ganga River timeline",
+                  "Ancient mentions of Ganga"
+               ],
+               "responses":[
+                  "The Ganga River has a rich history dating back centuries. It is mentioned in ancient texts and has played a crucial role in the development of civilizations along its banks. The river is associated with numerous myths, legends, and historical events."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_cities",
+               "patterns":[
+                  "Cities along the Ganga",
+                  "Ganga River urban areas",
+                  "Metropolitan cities on the Ganga",
+                  "Ganga Riverbank cities"
+               ],
+               "responses":[
+                  "The Ganga River flows through several major cities in India, including Varanasi, Kanpur, Allahabad (Prayagraj), Patna, and Kolkata. These cities have historical and cultural significance, and the river plays a vital role in their development and sustenance."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_flora_fauna",
+               "patterns":[
+                  "Flora and fauna of the Ganga",
+                  "Biodiversity in Ganga River",
+                  "Ganga River ecosystems",
+                  "Plants and animals in Ganga"
+               ],
+               "responses":[
+                  "The Ganga River supports a diverse range of flora and fauna. From aquatic plants to various fish species, turtles, and the endangered Ganges River Dolphin, the ecosystem along the Ganga is rich and contributes to the overall biodiversity of the region."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_hydrology",
+               "patterns":[
+                  "Hydrology of the Ganga River",
+                  "Ganga River water flow",
+                  "Seasonal changes in Ganga",
+                  "Ganga discharge patterns"
+               ],
+               "responses":[
+                  "The hydrology of the Ganga River is influenced by seasonal changes, monsoons, and the melting of Himalayan glaciers. Understanding the water flow and discharge patterns is essential for managing the river's resources and addressing challenges related to water availability and quality."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_religion",
+               "patterns":[
+                  "Ganga River in religion",
+                  "Religious rituals in Ganga",
+                  "Ganga in Hinduism",
+                  "Ceremonies along the Ganga"
+               ],
+               "responses":[
+                  "The Ganga River holds immense religious significance in Hinduism. Many rituals, ceremonies, and festivals are conducted along its banks. Pilgrims consider the waters of the Ganga to be purifying, and the river is an integral part of religious practices in India."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+                  {
+                     "tag":"ganga_geography",
+                     "patterns":[
+                        "Geography of the Ganga River",
+                        "Ganga River basin",
+                        "Physical features of Ganga",
+                        "Ganga River tributaries"
+                     ],
+                     "responses":[
+                        "The Ganga River flows through diverse landscapes, including the plains of northern India. Its basin covers a vast area and is fed by numerous tributaries, such as the Yamuna, Son, Gandak, and Kosi rivers. The geography of the Ganga plays a crucial role in shaping the region's ecosystem and hydrology."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_ecological_importance",
+                     "patterns":[
+                        "Ecological importance of the Ganga",
+                        "Ganga River biodiversity",
+                        "Ecosystem services of Ganga",
+                        "Ganga and wildlife conservation"
+                     ],
+                     "responses":[
+                        "The Ganga River's ecological importance is immense. It sustains a variety of habitats and supports diverse wildlife. The river's ecosystems provide essential services, including water purification, nutrient cycling, and habitat for numerous species. Conservation efforts aim to safeguard this ecological richness."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_cultural_heritage",
+                     "patterns":[
+                        "Cultural heritage along the Ganga",
+                        "Historical monuments on Ganga banks",
+                        "Ganga in literature and art",
+                        "Cultural significance of Ganga"
+                     ],
+                     "responses":[
+                        "The Ganga River is intertwined with India's cultural heritage. Its banks are dotted with historical monuments, temples, and ghats. The river has inspired literature, art, and folklore, contributing to the rich cultural tapestry of the region."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_water_management",
+                     "patterns":[
+                        "Water management in the Ganga River",
+                        "Ganga River basin planning",
+                        "Sustainable water use in Ganga",
+                        "Ganga water resource management"
+                     ],
+                     "responses":[
+                        "Effective water management is crucial for the Ganga River. It involves planning and sustainable use of water resources to meet the needs of various sectors, including agriculture, industry, and households. Balancing water demand and maintaining river health are key aspects of water management in the Ganga basin."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_future_outlook",
+                     "patterns":[
+                        "Future outlook for the Ganga River",
+                        "Challenges and opportunities for Ganga",
+                        "Sustainable Ganga development",
+                        "Ganga River in the coming years"
+                     ],
+                     "responses":[
+                        "The future outlook for the Ganga River involves addressing challenges such as pollution, over-extraction of water, and climate change. Sustainable development, community involvement, and conservation efforts are essential for ensuring a positive trajectory for the Ganga in the coming years."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_connectivity",
+                     "patterns":[
+                        "Connectivity of the Ganga River",
+                        "Transportation along the Ganga",
+                        "Ganga waterway projects",
+                        "Trade and commerce on Ganga"
+                     ],
+                     "responses":[
+                        "The Ganga River has been a crucial waterway for transportation and trade for centuries. Various projects aim to enhance connectivity through the National Waterway-1, promoting inland water transport and supporting economic activities along the Ganga basin."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_climate_change",
+                     "patterns":[
+                        "Climate change impact on the Ganga River",
+                        "Ganga River and global warming",
+                        "Changing weather patterns in Ganga basin",
+                        "Adaptation strategies for Ganga"
+                     ],
+                     "responses":[
+                        "Climate change poses challenges to the Ganga River, affecting weather patterns, water availability, and ecosystem dynamics. Implementing adaptation strategies, sustainable water management, and mitigating climate-related impacts are crucial for the resilience of the Ganga and its surrounding regions."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_social_impact",
+                     "patterns":[
+                        "Social impact of the Ganga River",
+                        "Ganga and community livelihoods",
+                        "Cultural and social aspects of Ganga",
+                        "Impact on local communities"
+                     ],
+                     "responses":[
+                        "The Ganga River has a profound social impact on the communities along its banks. It supports livelihoods through agriculture, fishing, and tourism. The river's cultural significance plays a vital role in shaping the identity and traditions of the people residing in the Ganga basin."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_health",
+                     "patterns":[
+                        "Health of the Ganga River",
+                        "Assessing Ganga River health",
+                        "Water quality in the Ganga",
+                        "Environmental monitoring of Ganga"
+                     ],
+                     "responses":[
+                        "Evaluating the health of the Ganga River involves monitoring water quality, biodiversity, and ecosystem dynamics. Environmental assessments, pollution control measures, and sustainable practices contribute to maintaining and improving the overall health of the Ganga."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_sustainability",
+                     "patterns":[
+                        "Sustainability of the Ganga River",
+                        "Ganga conservation for future generations",
+                        "Balancing development and conservation in Ganga",
+                        "Sustainable practices for Ganga"
+                     ],
+                     "responses":[
+                        "Ensuring the sustainability of the Ganga River requires a balanced approach that considers both development and conservation. Implementing sustainable practices, community engagement, and responsible resource management are essential for preserving the Ganga's ecological, cultural, and economic value for future generations."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  },
+                  {
+                     "tag":"ganga_river_facts",
+                     "patterns":[
+                        "Interesting facts about the Ganga River",
+                        "Fascinating information about Ganga",
+                        "Ganga River trivia",
+                        "Unknown details about Ganga"
+                     ],
+                     "responses":[
+                        "The Ganga River is full of fascinating facts. Did you know that it's one of the most sacred rivers in the world and is home to the endangered Ganges River Dolphin? Its cultural, historical, and ecological significance makes it a unique and important watercourse in the Indian subcontinent."
+                     ],
+                     "context":[
+                        ""
+                     ]
+                  }
+               ]
+            }

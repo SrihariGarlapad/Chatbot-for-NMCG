@@ -1,0 +1,204 @@
+* {
+  background-color: #c5e7fd;
+  ;
+}
+
+/* Existing styles */
+body {
+  margin-bottom: 0;
+}
+
+.chat-container {
+  max-width: 955px;
+  margin-top: 68px;
+  padding: 41px;
+  /* overflow: auto; */
+  overflow-y: scroll;
+  padding-right: 29px;
+  height: 68vh;
+  position: relative;
+  left: 48%;
+  width: 50%;
+  margin-bottom: 7px;
+}
+
+.send-container {
+  padding-left: 81px;
+  position: relative;
+  /* bottom: 8vh; */
+  /* margin-bottom: 2%; */
+  width: 41%;
+  left: 55%;
+  margin-bottom: 0; /* Add this line to remove bottom margin */
+}
+
+/* Add the following rule to remove bottom margin from the entire page */
+
+/* Existing styles */
+
+#SendButton {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+}
+
+.bi {
+  border: none;
+  background: none;
+  background-color: #9b9b9b;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  height: auto;
+  width: 24px;
+}
+
+.bi-send {
+  color: #d0d0d0;
+}
+
+.messageSpace {
+  display: flex;
+  margin-right: -48px;
+  width: 92%;
+  border: 2px solid black;
+  background-color: #9b9b9b;
+  border-radius: 40px;
+  padding: 14px 24px 15px 26px;
+  height: 47px;
+  color: white;
+}
+
+.messageSpace::placeholder {
+  color: white;
+}
+
+.user {
+  background-color: #ffffff;
+  float: right;
+  width: auto;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+  clear: both;
+}
+
+.gif-container {
+  position: fixed;
+  left: 2%;
+  top: 25%;
+  width: 18%; /* Adjust the width as needed */
+  height: auto;
+  z-index: 1000;
+}
+
+.gif {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between GIFs */
+  position: relative;
+  left: 45%;
+}
+
+.bot {
+  background-color: rgb(76,212,219);
+  float: left;
+  width: 44%;
+  padding: 10px;
+  margin: 17px 12px;
+  margin-top: 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+  clear: both;
+  position: relative;
+  font-size:large;
+  color:rgb(8, 61, 8);
+  font-family: fangsong;
+  overflow: hidden; /* Ensure that the animation is contained within the box */
+}
+
+
+
+
+/* Add the following rule to override the border for .bot within .gif-container */
+.gif-container .bot {
+  border: none;
+}
+
+.svg {
+  background-color: #9b9b9b;
+}
+
+.outside-container {
+  margin-top: 19px;
+  position: fixed;
+  left: 2%;
+  top: 25%;
+  width: 18%; /* Adjust the width as needed */
+  height: auto;
+}
+/* Add specific styles for each GIF */
+.gif-container .main2 {
+  /* Styles for main2 GIF */
+  width: 103%; /* Adjust as needed */
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between GIFs */
+  position: relative;
+  left: 45%;
+}
+
+.gif-container .IAMFINEFF {
+  /* Styles for IAMFINEFF GIF */
+  width: 105%; /* Adjust as needed */
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between GIFs */
+  position: relative;
+  left: 45%;
+}
+
+.gif-container .explainingfff {
+  /* Styles for explainingfff GIF */
+  width: 162%; /* Adjust as needed */
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between GIFs */
+  position: relative;
+  left: 45%;
+}
+
+.gif-container .UN11 {
+  /* Styles for UN11 GIF */
+  width: 128%; /* Adjust as needed */
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Add some spacing between GIFs */
+  position: relative;
+  left: 45%;
+}
+
+.gif {
+  max-width: 200%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  left: 45%;
+}
+
+/* Add the following rule to override the border for .bot within .gif-container */
+.gif-container .bot {
+  border: none;
+}
+
+/* ... (existing styles) */
